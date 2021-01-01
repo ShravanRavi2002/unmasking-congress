@@ -4,4 +4,4 @@ from .models import Congressman
 class MainSerializer(serializers.ModelSerializer):
     class Meta:
         model = Congressman
-        fields = ('')
+        fields = ('name', 'state', 'party', 'twitter_handle')
