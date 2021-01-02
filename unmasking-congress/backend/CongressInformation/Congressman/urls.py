@@ -21,5 +21,5 @@ app_name = 'Congressman'
 urlpatterns = [
     #TODO: change homepage to something with meaning later
     # TODO: make the path go to index.js later once it works
-    path("", views.homepage, name='homepage')
+    path("", views.scraper, name='scraper')
 ]
