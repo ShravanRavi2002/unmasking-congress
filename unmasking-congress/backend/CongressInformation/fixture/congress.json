@@ -1,0 +1,5282 @@
+[
+    {
+        "model": "Congressman.Congressman",
+        "pk": 1,
+        "fields": {
+            "name": "Sherrod Brown",
+            "state": "OH",
+            "party": "Democrat",
+            "twitter_handle": "SenSherrodBrown"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 2,
+        "fields": {
+            "name": "Maria Cantwell",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "SenatorCantwell"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 3,
+        "fields": {
+            "name": "Benjamin L. Cardin",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "SenatorCardin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 4,
+        "fields": {
+            "name": "Thomas R. Carper",
+            "state": "DE",
+            "party": "Democrat",
+            "twitter_handle": "SenatorCarper"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 5,
+        "fields": {
+            "name": "Robert P. Casey, Jr.",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "SenBobCasey"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 6,
+        "fields": {
+            "name": "Dianne Feinstein",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "SenFeinstein"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 7,
+        "fields": {
+            "name": "Amy Klobuchar",
+            "state": "MN",
+            "party": "Democrat",
+            "twitter_handle": "SenAmyKlobuchar"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 8,
+        "fields": {
+            "name": "Robert Menendez",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "SenatorMenendez"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 9,
+        "fields": {
+            "name": "Bernard Sanders",
+            "state": "VT",
+            "party": "Independent",
+            "twitter_handle": "SenSanders"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 10,
+        "fields": {
+            "name": "Debbie Stabenow",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "SenStabenow"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 11,
+        "fields": {
+            "name": "Jon Tester",
+            "state": "MT",
+            "party": "Democrat",
+            "twitter_handle": "SenatorTester"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 12,
+        "fields": {
+            "name": "Sheldon Whitehouse",
+            "state": "RI",
+            "party": "Democrat",
+            "twitter_handle": "SenWhitehouse"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 13,
+        "fields": {
+            "name": "John Barrasso",
+            "state": "WY",
+            "party": "Republican",
+            "twitter_handle": "SenJohnBarrasso"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 14,
+        "fields": {
+            "name": "Roger F. Wicker",
+            "state": "MS",
+            "party": "Republican",
+            "twitter_handle": "SenatorWicker"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 15,
+        "fields": {
+            "name": "Lamar Alexander",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "SenAlexander"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 16,
+        "fields": {
+            "name": "Susan M. Collins",
+            "state": "ME",
+            "party": "Republican",
+            "twitter_handle": "SenatorCollins"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 17,
+        "fields": {
+            "name": "John Cornyn",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "JohnCornyn"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 18,
+        "fields": {
+            "name": "Richard J. Durbin",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "SenatorDurbin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 19,
+        "fields": {
+            "name": "Michael B. Enzi",
+            "state": "WY",
+            "party": "Republican",
+            "twitter_handle": "SenatorEnzi"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 20,
+        "fields": {
+            "name": "Lindsey Graham",
+            "state": "SC",
+            "party": "Republican",
+            "twitter_handle": "GrahamBlog"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 21,
+        "fields": {
+            "name": "James M. Inhofe",
+            "state": "OK",
+            "party": "Republican",
+            "twitter_handle": "InhofePress"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 22,
+        "fields": {
+            "name": "Mitch McConnell",
+            "state": "KY",
+            "party": "Republican",
+            "twitter_handle": "McConnellPress"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 23,
+        "fields": {
+            "name": "Jeff Merkley",
+            "state": "OR",
+            "party": "Democrat",
+            "twitter_handle": "SenJeffMerkley"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 24,
+        "fields": {
+            "name": "Jack Reed",
+            "state": "RI",
+            "party": "Democrat",
+            "twitter_handle": "SenJackReed"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 25,
+        "fields": {
+            "name": "James E. Risch",
+            "state": "ID",
+            "party": "Republican",
+            "twitter_handle": "SenatorRisch"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 26,
+        "fields": {
+            "name": "Pat Roberts",
+            "state": "KS",
+            "party": "Republican",
+            "twitter_handle": "SenPatRoberts"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 27,
+        "fields": {
+            "name": "Jeanne Shaheen",
+            "state": "NH",
+            "party": "Democrat",
+            "twitter_handle": "SenatorShaheen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 28,
+        "fields": {
+            "name": "Tom Udall",
+            "state": "NM",
+            "party": "Democrat",
+            "twitter_handle": "SenatorTomUdall"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 29,
+        "fields": {
+            "name": "Mark R. Warner",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "MarkWarner"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 30,
+        "fields": {
+            "name": "Kirsten E. Gillibrand",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "GillibrandNY"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 31,
+        "fields": {
+            "name": "Christopher A. Coons",
+            "state": "DE",
+            "party": "Democrat",
+            "twitter_handle": "ChrisCoons"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 32,
+        "fields": {
+            "name": "Joe Manchin, III",
+            "state": "WV",
+            "party": "Democrat",
+            "twitter_handle": "Sen_JoeManchin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 33,
+        "fields": {
+            "name": "Robert B. Aderholt",
+            "state": "AL",
+            "party": "Republican",
+            "twitter_handle": "Robert_Aderholt"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 34,
+        "fields": {
+            "name": "Tammy Baldwin",
+            "state": "WI",
+            "party": "Democrat",
+            "twitter_handle": "SenatorBaldwin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 35,
+        "fields": {
+            "name": "Karen Bass",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepKarenBass"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 36,
+        "fields": {
+            "name": "Michael F. Bennet",
+            "state": "CO",
+            "party": "Democrat",
+            "twitter_handle": "SenatorBennet"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 37,
+        "fields": {
+            "name": "Gus M. Bilirakis",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepGusBilirakis"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 38,
+        "fields": {
+            "name": "Rob Bishop",
+            "state": "UT",
+            "party": "Republican",
+            "twitter_handle": "RepRobBishop"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 39,
+        "fields": {
+            "name": "Sanford D. Bishop, Jr.",
+            "state": "GA",
+            "party": "Democrat",
+            "twitter_handle": "SanfordBishop"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 40,
+        "fields": {
+            "name": "Marsha Blackburn",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "MarshaBlackburn"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 41,
+        "fields": {
+            "name": "Earl Blumenauer",
+            "state": "OR",
+            "party": "Democrat",
+            "twitter_handle": "BlumenauerMedia"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 42,
+        "fields": {
+            "name": "Richard Blumenthal",
+            "state": "CT",
+            "party": "Democrat",
+            "twitter_handle": "SenBlumenthal"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 43,
+        "fields": {
+            "name": "Roy Blunt",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "RoyBlunt"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 44,
+        "fields": {
+            "name": "John Boozman",
+            "state": "AR",
+            "party": "Republican",
+            "twitter_handle": "JohnBoozman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 45,
+        "fields": {
+            "name": "Kevin Brady",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepKevinBrady"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 46,
+        "fields": {
+            "name": "Mo Brooks",
+            "state": "AL",
+            "party": "Republican",
+            "twitter_handle": "RepMoBrooks"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 47,
+        "fields": {
+            "name": "Vern Buchanan",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "VernBuchanan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 48,
+        "fields": {
+            "name": "Larry Bucshon",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "RepLarryBucshon"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 49,
+        "fields": {
+            "name": "Michael C. Burgess",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "MichaelCBurgess"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 50,
+        "fields": {
+            "name": "Richard Burr",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "SenatorBurr"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 51,
+        "fields": {
+            "name": "G. K. Butterfield",
+            "state": "NC",
+            "party": "Democrat",
+            "twitter_handle": "GKButterfield"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 52,
+        "fields": {
+            "name": "Ken Calvert",
+            "state": "CA",
+            "party": "Republican",
+            "twitter_handle": "KenCalvert"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 53,
+        "fields": {
+            "name": "Shelley Moore Capito",
+            "state": "WV",
+            "party": "Republican",
+            "twitter_handle": "SenCapito"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 54,
+        "fields": {
+            "name": "Andr\u00e9 Carson",
+            "state": "IN",
+            "party": "Democrat",
+            "twitter_handle": "RepAndreCarson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 55,
+        "fields": {
+            "name": "John R. Carter",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "JudgeCarter"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 56,
+        "fields": {
+            "name": "Bill Cassidy",
+            "state": "LA",
+            "party": "Republican",
+            "twitter_handle": "SenBillCassidy"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 57,
+        "fields": {
+            "name": "Kathy Castor",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "USRepKCastor"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 58,
+        "fields": {
+            "name": "Steve Chabot",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepSteveChabot"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 59,
+        "fields": {
+            "name": "Judy Chu",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepJudyChu"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 60,
+        "fields": {
+            "name": "David N. Cicilline",
+            "state": "RI",
+            "party": "Democrat",
+            "twitter_handle": "RepCicilline"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 61,
+        "fields": {
+            "name": "Yvette D. Clarke",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepYvetteClarke"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 62,
+        "fields": {
+            "name": "Emanuel Cleaver",
+            "state": "MO",
+            "party": "Democrat",
+            "twitter_handle": "RepCleaver"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 63,
+        "fields": {
+            "name": "James E. Clyburn",
+            "state": "SC",
+            "party": "Democrat",
+            "twitter_handle": "WhipClyburn"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 64,
+        "fields": {
+            "name": "Steve Cohen",
+            "state": "TN",
+            "party": "Democrat",
+            "twitter_handle": "RepCohen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 65,
+        "fields": {
+            "name": "Tom Cole",
+            "state": "OK",
+            "party": "Republican",
+            "twitter_handle": "TomColeOK04"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 66,
+        "fields": {
+            "name": "K. Michael Conaway",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "ConawayTX11"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 67,
+        "fields": {
+            "name": "Gerald E. Connolly",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "GerryConnolly"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 68,
+        "fields": {
+            "name": "Jim Cooper",
+            "state": "TN",
+            "party": "Democrat",
+            "twitter_handle": "RepJimCooper"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 69,
+        "fields": {
+            "name": "Jim Costa",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepJimCosta"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 70,
+        "fields": {
+            "name": "Joe Courtney",
+            "state": "CT",
+            "party": "Democrat",
+            "twitter_handle": "RepJoeCourtney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 71,
+        "fields": {
+            "name": "Mike Crapo",
+            "state": "ID",
+            "party": "Republican",
+            "twitter_handle": "MikeCrapo"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 72,
+        "fields": {
+            "name": "Eric A. \"Rick\" Crawford",
+            "state": "AR",
+            "party": "Republican",
+            "twitter_handle": "RepRickCrawford"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 73,
+        "fields": {
+            "name": "Henry Cuellar",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepCuellar"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 74,
+        "fields": {
+            "name": "Danny K. Davis",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepDannyDavis"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 75,
+        "fields": {
+            "name": "Susan A. Davis",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepSusanDavis"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 76,
+        "fields": {
+            "name": "Peter A. DeFazio",
+            "state": "OR",
+            "party": "Democrat",
+            "twitter_handle": "RepPeterDeFazio"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 77,
+        "fields": {
+            "name": "Diana DeGette",
+            "state": "CO",
+            "party": "Democrat",
+            "twitter_handle": "RepDianaDeGette"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 78,
+        "fields": {
+            "name": "Rosa L. DeLauro",
+            "state": "CT",
+            "party": "Democrat",
+            "twitter_handle": "RosaDeLauro"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 79,
+        "fields": {
+            "name": "Scott DesJarlais",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "DesJarlaisTN04"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 80,
+        "fields": {
+            "name": "Theodore E. Deutch",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepTedDeutch"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 81,
+        "fields": {
+            "name": "Mario Diaz-Balart",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "MarioDB"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 82,
+        "fields": {
+            "name": "Lloyd Doggett",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepLloydDoggett"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 83,
+        "fields": {
+            "name": "Michael F. Doyle",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "USRepMikeDoyle"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 84,
+        "fields": {
+            "name": "Jeff Duncan",
+            "state": "SC",
+            "party": "Republican",
+            "twitter_handle": "RepJeffDuncan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 85,
+        "fields": {
+            "name": "Eliot L. Engel",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepEliotEngel"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 86,
+        "fields": {
+            "name": "Anna G. Eshoo",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepAnnaEshoo"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 87,
+        "fields": {
+            "name": "Charles J. \"Chuck\" Fleischmann",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "RepChuck"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 88,
+        "fields": {
+            "name": "Bill Flores",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepBillFlores"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 89,
+        "fields": {
+            "name": "Jeff Fortenberry",
+            "state": "NE",
+            "party": "Republican",
+            "twitter_handle": "JeffFortenberry"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 90,
+        "fields": {
+            "name": "Virginia Foxx",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "VirginiaFoxx"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 91,
+        "fields": {
+            "name": "Marcia L. Fudge",
+            "state": "OH",
+            "party": "Democrat",
+            "twitter_handle": "RepMarciaFudge"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 92,
+        "fields": {
+            "name": "John Garamendi",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepGaramendi"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 93,
+        "fields": {
+            "name": "Cory Gardner",
+            "state": "CO",
+            "party": "Republican",
+            "twitter_handle": "SenCoryGardner"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 94,
+        "fields": {
+            "name": "Bob Gibbs",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepBobGibbs"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 95,
+        "fields": {
+            "name": "Louie Gohmert",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepLouieGohmert"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 96,
+        "fields": {
+            "name": "Paul A. Gosar",
+            "state": "AZ",
+            "party": "Republican",
+            "twitter_handle": "RepGosar"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 97,
+        "fields": {
+            "name": "Kay Granger",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepKayGranger"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 98,
+        "fields": {
+            "name": "Chuck Grassley",
+            "state": "IA",
+            "party": "Republican",
+            "twitter_handle": "ChuckGrassley"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 99,
+        "fields": {
+            "name": "Sam Graves",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "RepSamGraves"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 100,
+        "fields": {
+            "name": "Al Green",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepAlGreen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 101,
+        "fields": {
+            "name": "H. Morgan Griffith",
+            "state": "VA",
+            "party": "Republican",
+            "twitter_handle": "RepMGriffith"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 102,
+        "fields": {
+            "name": "Ra\u00fal M. Grijalva",
+            "state": "AZ",
+            "party": "Democrat",
+            "twitter_handle": "RepraulGrijalva"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 103,
+        "fields": {
+            "name": "Brett Guthrie",
+            "state": "KY",
+            "party": "Republican",
+            "twitter_handle": "RepGuthrie"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 104,
+        "fields": {
+            "name": "Andy Harris",
+            "state": "MD",
+            "party": "Republican",
+            "twitter_handle": "RepAndyHarrisMD"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 105,
+        "fields": {
+            "name": "Vicky Hartzler",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "RepHartzler"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 106,
+        "fields": {
+            "name": "Alcee L. Hastings",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepHastingsFL"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 107,
+        "fields": {
+            "name": "Martin Heinrich",
+            "state": "NM",
+            "party": "Democrat",
+            "twitter_handle": "MartinHeinrich"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 108,
+        "fields": {
+            "name": "Jaime Herrera Beutler",
+            "state": "WA",
+            "party": "Republican",
+            "twitter_handle": "HerreraBeutler"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 109,
+        "fields": {
+            "name": "Brian Higgins",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepBrianHiggins"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 110,
+        "fields": {
+            "name": "James A. Himes",
+            "state": "CT",
+            "party": "Democrat",
+            "twitter_handle": "JAHimes"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 111,
+        "fields": {
+            "name": "Mazie K. Hirono",
+            "state": "HI",
+            "party": "Democrat",
+            "twitter_handle": "MazieHirono"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 112,
+        "fields": {
+            "name": "John Hoeven",
+            "state": "ND",
+            "party": "Republican",
+            "twitter_handle": "SenJohnHoeven"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 113,
+        "fields": {
+            "name": "Steny H. Hoyer",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "LeaderHoyer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 114,
+        "fields": {
+            "name": "Bill Huizenga",
+            "state": "MI",
+            "party": "Republican",
+            "twitter_handle": "RepHuizenga"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 115,
+        "fields": {
+            "name": "Sheila Jackson Lee",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "JacksonLeeTX18"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 116,
+        "fields": {
+            "name": "Bill Johnson",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepBillJohnson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 117,
+        "fields": {
+            "name": "Eddie Bernice Johnson",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepEBJ"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 118,
+        "fields": {
+            "name": "Henry C. \"Hank\" Johnson, Jr.",
+            "state": "GA",
+            "party": "Democrat",
+            "twitter_handle": "RepHankJohnson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 119,
+        "fields": {
+            "name": "Ron Johnson",
+            "state": "WI",
+            "party": "Republican",
+            "twitter_handle": "SenRonJohnson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 120,
+        "fields": {
+            "name": "Jim Jordan",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "Jim_Jordan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 121,
+        "fields": {
+            "name": "Marcy Kaptur",
+            "state": "OH",
+            "party": "Democrat",
+            "twitter_handle": "RepMarcyKaptur"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 122,
+        "fields": {
+            "name": "William R. Keating",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "USRepKeating"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 123,
+        "fields": {
+            "name": "Mike Kelly",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "MikeKellyPA"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 124,
+        "fields": {
+            "name": "Ron Kind",
+            "state": "WI",
+            "party": "Democrat",
+            "twitter_handle": "RepRonKind"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 125,
+        "fields": {
+            "name": "Peter T. King",
+            "state": "NY",
+            "party": "Republican",
+            "twitter_handle": "RepPeteKing"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 126,
+        "fields": {
+            "name": "Steve King",
+            "state": "IA",
+            "party": "Republican",
+            "twitter_handle": "SteveKingIA"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 127,
+        "fields": {
+            "name": "Adam Kinzinger",
+            "state": "IL",
+            "party": "Republican",
+            "twitter_handle": "RepKinzinger"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 128,
+        "fields": {
+            "name": "Doug Lamborn",
+            "state": "CO",
+            "party": "Republican",
+            "twitter_handle": "RepDLamborn"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 129,
+        "fields": {
+            "name": "James R. Langevin",
+            "state": "RI",
+            "party": "Democrat",
+            "twitter_handle": "JimLangevin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 130,
+        "fields": {
+            "name": "James Lankford",
+            "state": "OK",
+            "party": "Republican",
+            "twitter_handle": "SenatorLankford"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 131,
+        "fields": {
+            "name": "Rick Larsen",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "RepRickLarsen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 132,
+        "fields": {
+            "name": "John B. Larson",
+            "state": "CT",
+            "party": "Democrat",
+            "twitter_handle": "RepJohnLarson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 133,
+        "fields": {
+            "name": "Robert E. Latta",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "BobLatta"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 134,
+        "fields": {
+            "name": "Patrick J. Leahy",
+            "state": "VT",
+            "party": "Democrat",
+            "twitter_handle": "SenatorLeahy"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 135,
+        "fields": {
+            "name": "Barbara Lee",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepBarbaraLee"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 136,
+        "fields": {
+            "name": "Mike Lee",
+            "state": "UT",
+            "party": "Republican",
+            "twitter_handle": "SenMikeLee"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 137,
+        "fields": {
+            "name": "Daniel Lipinski",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepLipinski"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 138,
+        "fields": {
+            "name": "David Loebsack",
+            "state": "IA",
+            "party": "Democrat",
+            "twitter_handle": "DaveLoebsack"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 139,
+        "fields": {
+            "name": "Zoe Lofgren",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepZoeLofgren"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 140,
+        "fields": {
+            "name": "Billy Long",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "USRepLong"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 141,
+        "fields": {
+            "name": "Nita M. Lowey",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "NitaLowey"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 142,
+        "fields": {
+            "name": "Frank D. Lucas",
+            "state": "OK",
+            "party": "Republican",
+            "twitter_handle": "RepFrankLucas"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 143,
+        "fields": {
+            "name": "Blaine Luetkemeyer",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "RepBlaine"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 144,
+        "fields": {
+            "name": "Ben Ray Luj\u00e1n",
+            "state": "NM",
+            "party": "Democrat",
+            "twitter_handle": "RepBenRayLujan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 145,
+        "fields": {
+            "name": "Stephen F. Lynch",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "RepStephenLynch"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 146,
+        "fields": {
+            "name": "Carolyn B. Maloney",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepMaloney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 147,
+        "fields": {
+            "name": "Kenny Marchant",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepKenMarchant"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 148,
+        "fields": {
+            "name": "Edward J. Markey",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "SenMarkey"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 149,
+        "fields": {
+            "name": "Doris O. Matsui",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "DorisMatsui"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 150,
+        "fields": {
+            "name": "Kevin McCarthy",
+            "state": "CA",
+            "party": "Republican",
+            "twitter_handle": "GOPLeader"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 151,
+        "fields": {
+            "name": "Michael T. McCaul",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepMcCaul"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 152,
+        "fields": {
+            "name": "Tom McClintock",
+            "state": "CA",
+            "party": "Republican",
+            "twitter_handle": "RepMcClintock"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 153,
+        "fields": {
+            "name": "Betty McCollum",
+            "state": "MN",
+            "party": "Democrat",
+            "twitter_handle": "BettyMcCollum04"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 154,
+        "fields": {
+            "name": "James P. McGovern",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "RepMcGovern"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 155,
+        "fields": {
+            "name": "Patrick T. McHenry",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "PatrickMcHenry"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 156,
+        "fields": {
+            "name": "David B. McKinley",
+            "state": "WV",
+            "party": "Republican",
+            "twitter_handle": "RepMcKinley"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 157,
+        "fields": {
+            "name": "Cathy McMorris Rodgers",
+            "state": "WA",
+            "party": "Republican",
+            "twitter_handle": "CathyMcMorris"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 158,
+        "fields": {
+            "name": "Jerry McNerney",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepMcNerney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 159,
+        "fields": {
+            "name": "Gregory W. Meeks",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepGregoryMeeks"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 160,
+        "fields": {
+            "name": "Gwen Moore",
+            "state": "WI",
+            "party": "Democrat",
+            "twitter_handle": "RepGwenMoore"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 161,
+        "fields": {
+            "name": "Jerry Moran",
+            "state": "KS",
+            "party": "Republican",
+            "twitter_handle": "JerryMoran"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 162,
+        "fields": {
+            "name": "Lisa Murkowski",
+            "state": "AK",
+            "party": "Republican",
+            "twitter_handle": "LisaMurkowski"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 163,
+        "fields": {
+            "name": "Christopher Murphy",
+            "state": "CT",
+            "party": "Democrat",
+            "twitter_handle": "senmurphyoffice"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 164,
+        "fields": {
+            "name": "Patty Murray",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "PattyMurray"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 165,
+        "fields": {
+            "name": "Jerrold Nadler",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepJerryNadler"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 166,
+        "fields": {
+            "name": "Grace F. Napolitano",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "GraceNapolitano"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 167,
+        "fields": {
+            "name": "Richard E. Neal",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "RepRichardNeal"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 168,
+        "fields": {
+            "name": "Eleanor Holmes Norton",
+            "state": "DC",
+            "party": "Democrat",
+            "twitter_handle": "EleanorNorton"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 169,
+        "fields": {
+            "name": "Devin Nunes",
+            "state": "CA",
+            "party": "Republican",
+            "twitter_handle": "RepDevinNunes"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 170,
+        "fields": {
+            "name": "Pete Olson",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepPeteOlson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 171,
+        "fields": {
+            "name": "Steven M. Palazzo",
+            "state": "MS",
+            "party": "Republican",
+            "twitter_handle": "CongPalazzo"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 172,
+        "fields": {
+            "name": "Frank Pallone, Jr.",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "FrankPallone"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 173,
+        "fields": {
+            "name": "Bill Pascrell, Jr.",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "BillPascrell"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 174,
+        "fields": {
+            "name": "Rand Paul",
+            "state": "KY",
+            "party": "Republican",
+            "twitter_handle": "RandPaul"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 175,
+        "fields": {
+            "name": "Nancy Pelosi",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "SpeakerPelosi"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 176,
+        "fields": {
+            "name": "Ed Perlmutter",
+            "state": "CO",
+            "party": "Democrat",
+            "twitter_handle": "RepPerlmutter"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 177,
+        "fields": {
+            "name": "Gary C. Peters",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "SenGaryPeters"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 178,
+        "fields": {
+            "name": "Chellie Pingree",
+            "state": "ME",
+            "party": "Democrat",
+            "twitter_handle": "ChelliePingree"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 179,
+        "fields": {
+            "name": "Rob Portman",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "SenRobPortman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 180,
+        "fields": {
+            "name": "Bill Posey",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "CongBillPosey"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 181,
+        "fields": {
+            "name": "David E. Price",
+            "state": "NC",
+            "party": "Democrat",
+            "twitter_handle": "RepDavidEPrice"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 182,
+        "fields": {
+            "name": "Mike Quigley",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepMikeQuigley"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 183,
+        "fields": {
+            "name": "Tom Reed",
+            "state": "NY",
+            "party": "Republican",
+            "twitter_handle": "RepTomReed"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 184,
+        "fields": {
+            "name": "Cedric L. Richmond",
+            "state": "LA",
+            "party": "Democrat",
+            "twitter_handle": "RepRichmond"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 185,
+        "fields": {
+            "name": "Martha Roby",
+            "state": "AL",
+            "party": "Republican",
+            "twitter_handle": "RepMarthaRoby"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 186,
+        "fields": {
+            "name": "David P. Roe",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "DrPhilRoe"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 187,
+        "fields": {
+            "name": "Harold Rogers",
+            "state": "KY",
+            "party": "Republican",
+            "twitter_handle": "RepHalRogers"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 188,
+        "fields": {
+            "name": "Mike Rogers",
+            "state": "AL",
+            "party": "Republican",
+            "twitter_handle": "RepMikeRogersAL"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 189,
+        "fields": {
+            "name": "Lucille Roybal-Allard",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepRoybalAllard"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 190,
+        "fields": {
+            "name": "Marco Rubio",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "SenRubioPress"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 191,
+        "fields": {
+            "name": "C. A. Dutch Ruppersberger",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "Call_Me_Dutch"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 192,
+        "fields": {
+            "name": "Bobby L. Rush",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepBobbyRush"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 193,
+        "fields": {
+            "name": "Tim Ryan",
+            "state": "OH",
+            "party": "Democrat",
+            "twitter_handle": "RepTimRyan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 194,
+        "fields": {
+            "name": "Gregorio Kilili Camacho Sablan",
+            "state": "MP",
+            "party": "Democrat",
+            "twitter_handle": "Kilili_Sablan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 195,
+        "fields": {
+            "name": "John P. Sarbanes",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "RepSarbanes"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 196,
+        "fields": {
+            "name": "Steve Scalise",
+            "state": "LA",
+            "party": "Republican",
+            "twitter_handle": "SteveScalise"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 197,
+        "fields": {
+            "name": "Janice D. Schakowsky",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "JanSchakowsky"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 198,
+        "fields": {
+            "name": "Adam B. Schiff",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepAdamSchiff"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 199,
+        "fields": {
+            "name": "Kurt Schrader",
+            "state": "OR",
+            "party": "Democrat",
+            "twitter_handle": "RepSchrader"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 200,
+        "fields": {
+            "name": "Charles E. Schumer",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "SenSchumer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 201,
+        "fields": {
+            "name": "David Schweikert",
+            "state": "AZ",
+            "party": "Republican",
+            "twitter_handle": "RepDavid"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 202,
+        "fields": {
+            "name": "Austin Scott",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "AustinScottGA08"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 203,
+        "fields": {
+            "name": "David Scott",
+            "state": "GA",
+            "party": "Democrat",
+            "twitter_handle": "RepDavidScott"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 204,
+        "fields": {
+            "name": "Robert C. \"Bobby\" Scott",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "BobbyScott"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 205,
+        "fields": {
+            "name": "Tim Scott",
+            "state": "SC",
+            "party": "Republican",
+            "twitter_handle": "SenatorTimScott"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 206,
+        "fields": {
+            "name": "F. James Sensenbrenner, Jr.",
+            "state": "WI",
+            "party": "Republican",
+            "twitter_handle": "JimPressOffice"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 207,
+        "fields": {
+            "name": "Jos\u00e9 E. Serrano",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepJoseSerrano"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 208,
+        "fields": {
+            "name": "Terri A. Sewell",
+            "state": "AL",
+            "party": "Democrat",
+            "twitter_handle": "RepTerriSewell"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 209,
+        "fields": {
+            "name": "Richard C. Shelby",
+            "state": "AL",
+            "party": "Republican",
+            "twitter_handle": "SenShelby"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 210,
+        "fields": {
+            "name": "Brad Sherman",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "BradSherman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 211,
+        "fields": {
+            "name": "John Shimkus",
+            "state": "IL",
+            "party": "Republican",
+            "twitter_handle": "RepShimkus"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 212,
+        "fields": {
+            "name": "Michael K. Simpson",
+            "state": "ID",
+            "party": "Republican",
+            "twitter_handle": "CongMikeSimpson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 213,
+        "fields": {
+            "name": "Albio Sires",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "RepSires"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 214,
+        "fields": {
+            "name": "Adam Smith",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "RepAdamSmith"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 215,
+        "fields": {
+            "name": "Adrian Smith",
+            "state": "NE",
+            "party": "Republican",
+            "twitter_handle": "RepAdrianSmith"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 216,
+        "fields": {
+            "name": "Christopher H. Smith",
+            "state": "NJ",
+            "party": "Republican",
+            "twitter_handle": "RepChrisSmith"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 217,
+        "fields": {
+            "name": "Jackie Speier",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepSpeier"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 218,
+        "fields": {
+            "name": "Steve Stivers",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepSteveStivers"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 219,
+        "fields": {
+            "name": "Linda T. S\u00e1nchez",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepLindaSanchez"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 220,
+        "fields": {
+            "name": "Bennie G. Thompson",
+            "state": "MS",
+            "party": "Democrat",
+            "twitter_handle": "BennieGThompson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 221,
+        "fields": {
+            "name": "Mike Thompson",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepThompson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 222,
+        "fields": {
+            "name": "Glenn Thompson",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "CongressmanGT"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 223,
+        "fields": {
+            "name": "Mac Thornberry",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "MacTXPress"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 224,
+        "fields": {
+            "name": "John Thune",
+            "state": "SD",
+            "party": "Republican",
+            "twitter_handle": "SenJohnThune"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 225,
+        "fields": {
+            "name": "Scott R. Tipton",
+            "state": "CO",
+            "party": "Republican",
+            "twitter_handle": "RepTipton"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 226,
+        "fields": {
+            "name": "Paul Tonko",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepPaulTonko"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 227,
+        "fields": {
+            "name": "Patrick J. Toomey",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "SenToomey"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 228,
+        "fields": {
+            "name": "Michael R. Turner",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepMikeTurner"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 229,
+        "fields": {
+            "name": "Fred Upton",
+            "state": "MI",
+            "party": "Republican",
+            "twitter_handle": "RepFredUpton"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 230,
+        "fields": {
+            "name": "Chris Van Hollen",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "ChrisVanHollen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 231,
+        "fields": {
+            "name": "Nydia M. Vel\u00e1zquez",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "NydiaVelazquez"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 232,
+        "fields": {
+            "name": "Peter J. Visclosky",
+            "state": "IN",
+            "party": "Democrat",
+            "twitter_handle": "RepVisclosky"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 233,
+        "fields": {
+            "name": "Tim Walberg",
+            "state": "MI",
+            "party": "Republican",
+            "twitter_handle": "RepWalberg"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 234,
+        "fields": {
+            "name": "Greg Walden",
+            "state": "OR",
+            "party": "Republican",
+            "twitter_handle": "RepGregWalden"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 235,
+        "fields": {
+            "name": "Debbie Wasserman Schultz",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepDWStweets"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 236,
+        "fields": {
+            "name": "Maxine Waters",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepMaxineWaters"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 237,
+        "fields": {
+            "name": "Daniel Webster",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepWebster"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 238,
+        "fields": {
+            "name": "Peter Welch",
+            "state": "VT",
+            "party": "Democrat",
+            "twitter_handle": "PeterWelch"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 239,
+        "fields": {
+            "name": "Joe Wilson",
+            "state": "SC",
+            "party": "Republican",
+            "twitter_handle": "RepJoeWilson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 240,
+        "fields": {
+            "name": "Frederica S. Wilson",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepWilson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 241,
+        "fields": {
+            "name": "Robert J. Wittman",
+            "state": "VA",
+            "party": "Republican",
+            "twitter_handle": "RobWittman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 242,
+        "fields": {
+            "name": "Steve Womack",
+            "state": "AR",
+            "party": "Republican",
+            "twitter_handle": "Rep_SteveWomack"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 243,
+        "fields": {
+            "name": "Rob Woodall",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "RepRobWoodall"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 244,
+        "fields": {
+            "name": "Ron Wyden",
+            "state": "OR",
+            "party": "Democrat",
+            "twitter_handle": "RonWyden"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 245,
+        "fields": {
+            "name": "John A. Yarmuth",
+            "state": "KY",
+            "party": "Democrat",
+            "twitter_handle": "RepJohnYarmuth"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 246,
+        "fields": {
+            "name": "Don Young",
+            "state": "AK",
+            "party": "Republican",
+            "twitter_handle": "RepDonYoung"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 247,
+        "fields": {
+            "name": "Todd Young",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "SenToddYoung"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 248,
+        "fields": {
+            "name": "Mark E. Amodei",
+            "state": "NV",
+            "party": "Republican",
+            "twitter_handle": "MarkAmodeiNV2"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 249,
+        "fields": {
+            "name": "Suzanne Bonamici",
+            "state": "OR",
+            "party": "Democrat",
+            "twitter_handle": "RepBonamici"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 250,
+        "fields": {
+            "name": "Suzan K. DelBene",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "RepDelBene"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 251,
+        "fields": {
+            "name": "Thomas Massie",
+            "state": "KY",
+            "party": "Republican",
+            "twitter_handle": "RepThomasMassie"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 252,
+        "fields": {
+            "name": "Donald M. Payne, Jr.",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "RepDonaldPayne"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 253,
+        "fields": {
+            "name": "Brian Schatz",
+            "state": "HI",
+            "party": "Democrat",
+            "twitter_handle": "SenBrianSchatz"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 254,
+        "fields": {
+            "name": "Bill Foster",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepBillFoster"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 255,
+        "fields": {
+            "name": "Dina Titus",
+            "state": "NV",
+            "party": "Democrat",
+            "twitter_handle": "RepDinaTitus"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 256,
+        "fields": {
+            "name": "Tom Cotton",
+            "state": "AR",
+            "party": "Republican",
+            "twitter_handle": "SenTomCotton"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 257,
+        "fields": {
+            "name": "Kyrsten Sinema",
+            "state": "AZ",
+            "party": "Democrat",
+            "twitter_handle": "SenatorSinema"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 258,
+        "fields": {
+            "name": "Doug LaMalfa",
+            "state": "CA",
+            "party": "Republican",
+            "twitter_handle": "RepLaMalfa"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 259,
+        "fields": {
+            "name": "Jared Huffman",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepHuffman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 260,
+        "fields": {
+            "name": "Ami Bera",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepBera"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 261,
+        "fields": {
+            "name": "Eric Swalwell",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepSwalwell"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 262,
+        "fields": {
+            "name": "Julia Brownley",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepBrownley"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 263,
+        "fields": {
+            "name": "Tony C\u00e1rdenas",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepCardenas"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 264,
+        "fields": {
+            "name": "Raul Ruiz",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepRaulRuizMD"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 265,
+        "fields": {
+            "name": "Mark Takano",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepMarkTakano"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 266,
+        "fields": {
+            "name": "Alan S. Lowenthal",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepLowenthal"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 267,
+        "fields": {
+            "name": "Juan Vargas",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepJuanVargas"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 268,
+        "fields": {
+            "name": "Scott H. Peters",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepScottPeters"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 269,
+        "fields": {
+            "name": "Ted S. Yoho",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepTedYoho"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 270,
+        "fields": {
+            "name": "Lois Frankel",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepLoisFrankel"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 271,
+        "fields": {
+            "name": "Doug Collins",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "RepDougCollins"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 272,
+        "fields": {
+            "name": "Tulsi Gabbard",
+            "state": "HI",
+            "party": "Democrat",
+            "twitter_handle": "TulsiPress"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 273,
+        "fields": {
+            "name": "Tammy Duckworth",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "SenDuckworth"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 274,
+        "fields": {
+            "name": "Rodney Davis",
+            "state": "IL",
+            "party": "Republican",
+            "twitter_handle": "RodneyDavis"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 275,
+        "fields": {
+            "name": "Cheri Bustos",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepCheri"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 276,
+        "fields": {
+            "name": "Jackie Walorski",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "RepWalorski"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 277,
+        "fields": {
+            "name": "Susan W. Brooks",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "SusanWBrooks"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 278,
+        "fields": {
+            "name": "Andy Barr",
+            "state": "KY",
+            "party": "Republican",
+            "twitter_handle": "RepAndyBarr"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 279,
+        "fields": {
+            "name": "Elizabeth Warren",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "SenWarren"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 280,
+        "fields": {
+            "name": "Joseph P. Kennedy III",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "RepJoeKennedy"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 281,
+        "fields": {
+            "name": "Angus S. King, Jr.",
+            "state": "ME",
+            "party": "Independent",
+            "twitter_handle": "SenAngusKing"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 282,
+        "fields": {
+            "name": "Daniel T. Kildee",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "RepDanKildee"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 283,
+        "fields": {
+            "name": "Ann Wagner",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "RepAnnWagner"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 284,
+        "fields": {
+            "name": "Steve Daines",
+            "state": "MT",
+            "party": "Republican",
+            "twitter_handle": "SteveDaines"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 285,
+        "fields": {
+            "name": "Richard Hudson",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "RepRichHudson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 286,
+        "fields": {
+            "name": "George Holding",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "RepHolding"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 287,
+        "fields": {
+            "name": "Kevin Cramer",
+            "state": "ND",
+            "party": "Republican",
+            "twitter_handle": "SenKevinCramer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 288,
+        "fields": {
+            "name": "Deb Fischer",
+            "state": "NE",
+            "party": "Republican",
+            "twitter_handle": "SenatorFischer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 289,
+        "fields": {
+            "name": "Ann M. Kuster",
+            "state": "NH",
+            "party": "Democrat",
+            "twitter_handle": "RepAnnieKuster"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 290,
+        "fields": {
+            "name": "Grace Meng",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepGraceMeng"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 291,
+        "fields": {
+            "name": "Hakeem S. Jeffries",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepJeffries"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 292,
+        "fields": {
+            "name": "Sean Patrick Maloney",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepSeanMaloney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 293,
+        "fields": {
+            "name": "Brad R. Wenstrup",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepBradWenstrup"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 294,
+        "fields": {
+            "name": "Joyce Beatty",
+            "state": "OH",
+            "party": "Democrat",
+            "twitter_handle": "RepBeatty"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 295,
+        "fields": {
+            "name": "David P. Joyce",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepDaveJoyce"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 296,
+        "fields": {
+            "name": "Markwayne Mullin",
+            "state": "OK",
+            "party": "Republican",
+            "twitter_handle": "RepMullin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 297,
+        "fields": {
+            "name": "Scott Perry",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "RepScottPerry"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 298,
+        "fields": {
+            "name": "Matt Cartwright",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "RepCartwright"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 299,
+        "fields": {
+            "name": "Tom Rice",
+            "state": "SC",
+            "party": "Republican",
+            "twitter_handle": "RepTomRice"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 300,
+        "fields": {
+            "name": "Ted Cruz",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "SenTedCruz"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 301,
+        "fields": {
+            "name": "Randy K. Weber, Sr.",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "TXRandy14"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 302,
+        "fields": {
+            "name": "Joaquin Castro",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "JoaquinCastrotx"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 303,
+        "fields": {
+            "name": "Roger Williams",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepRWilliams"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 304,
+        "fields": {
+            "name": "Marc A. Veasey",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepVeasey"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 305,
+        "fields": {
+            "name": "Filemon Vela",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepFilemonVela"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 306,
+        "fields": {
+            "name": "Chris Stewart",
+            "state": "UT",
+            "party": "Republican",
+            "twitter_handle": "RepChrisStewart"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 307,
+        "fields": {
+            "name": "Derek Kilmer",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "RepDerekKilmer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 308,
+        "fields": {
+            "name": "Denny Heck",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "RepDennyHeck"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 309,
+        "fields": {
+            "name": "Mark Pocan",
+            "state": "WI",
+            "party": "Democrat",
+            "twitter_handle": "RepMarkPocan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 310,
+        "fields": {
+            "name": "Robin L. Kelly",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepRobinKelly"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 311,
+        "fields": {
+            "name": "Jason Smith",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "RepJasonSmith"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 312,
+        "fields": {
+            "name": "Cory A. Booker",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "SenBooker"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 313,
+        "fields": {
+            "name": "Katherine M. Clark",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "RepKClark"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 314,
+        "fields": {
+            "name": "Bradley Byrne",
+            "state": "AL",
+            "party": "Republican",
+            "twitter_handle": "RepByrne"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 315,
+        "fields": {
+            "name": "Donald Norcross",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "DonaldNorcross"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 316,
+        "fields": {
+            "name": "Alma S. Adams",
+            "state": "NC",
+            "party": "Democrat",
+            "twitter_handle": "RepAdams"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 317,
+        "fields": {
+            "name": "Gary J. Palmer",
+            "state": "AL",
+            "party": "Republican",
+            "twitter_handle": "USRepGaryPalmer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 318,
+        "fields": {
+            "name": "J. French Hill",
+            "state": "AR",
+            "party": "Republican",
+            "twitter_handle": "RepFrenchHill"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 319,
+        "fields": {
+            "name": "Bruce Westerman",
+            "state": "AR",
+            "party": "Republican",
+            "twitter_handle": "RepWesterman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 320,
+        "fields": {
+            "name": "Ruben Gallego",
+            "state": "AZ",
+            "party": "Democrat",
+            "twitter_handle": "RepRubenGallego"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 321,
+        "fields": {
+            "name": "Mark DeSaulnier",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepDeSaulnier"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 322,
+        "fields": {
+            "name": "Pete Aguilar",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "reppeteaguilar"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 323,
+        "fields": {
+            "name": "Ted Lieu",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepTedLieu"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 324,
+        "fields": {
+            "name": "Norma J. Torres",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "NormaJTorres"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 325,
+        "fields": {
+            "name": "Ken Buck",
+            "state": "CO",
+            "party": "Republican",
+            "twitter_handle": "RepKenBuck"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 326,
+        "fields": {
+            "name": "Earl L. \"Buddy\" Carter",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "RepBuddyCarter"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 327,
+        "fields": {
+            "name": "Jody B. Hice",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "congressmanhice"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 328,
+        "fields": {
+            "name": "Barry Loudermilk",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "RepLoudermilk"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 329,
+        "fields": {
+            "name": "Rick W. Allen",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "reprickallen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 330,
+        "fields": {
+            "name": "Mike Bost",
+            "state": "IL",
+            "party": "Republican",
+            "twitter_handle": "RepBost"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 331,
+        "fields": {
+            "name": "Ralph Lee Abraham",
+            "state": "LA",
+            "party": "Republican",
+            "twitter_handle": "RepAbraham"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 332,
+        "fields": {
+            "name": "Garret Graves",
+            "state": "LA",
+            "party": "Republican",
+            "twitter_handle": "RepGarretGraves"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 333,
+        "fields": {
+            "name": "Seth Moulton",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "teammoulton"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 334,
+        "fields": {
+            "name": "John R. Moolenaar",
+            "state": "MI",
+            "party": "Republican",
+            "twitter_handle": "RepMoolenaar"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 335,
+        "fields": {
+            "name": "Debbie Dingell",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "RepDebDingell"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 336,
+        "fields": {
+            "name": "Brenda L. Lawrence",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "RepLawrence"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 337,
+        "fields": {
+            "name": "Tom Emmer",
+            "state": "MN",
+            "party": "Republican",
+            "twitter_handle": "RepTomEmmer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 338,
+        "fields": {
+            "name": "David Rouzer",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "RepDavidRouzer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 339,
+        "fields": {
+            "name": "Bonnie Watson Coleman",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "RepBonnie"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 340,
+        "fields": {
+            "name": "Lee M. Zeldin",
+            "state": "NY",
+            "party": "Republican",
+            "twitter_handle": "RepLeeZeldin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 341,
+        "fields": {
+            "name": "Kathleen M. Rice",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepKathleenRice"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 342,
+        "fields": {
+            "name": "Elise M. Stefanik",
+            "state": "NY",
+            "party": "Republican",
+            "twitter_handle": "RepStefanik"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 343,
+        "fields": {
+            "name": "John Katko",
+            "state": "NY",
+            "party": "Republican",
+            "twitter_handle": "RepJohnKatko"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 344,
+        "fields": {
+            "name": "Brendan F. Boyle",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "CongBoyle"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 345,
+        "fields": {
+            "name": "Will Hurd",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "hurdonthehill"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 346,
+        "fields": {
+            "name": "Brian Babin",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepBrianBabin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 347,
+        "fields": {
+            "name": "Donald S. Beyer, Jr.",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "RepDonBeyer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 348,
+        "fields": {
+            "name": "Stacey E. Plaskett",
+            "state": "VI",
+            "party": "Democrat",
+            "twitter_handle": "staceyplaskett"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 349,
+        "fields": {
+            "name": "Dan Newhouse",
+            "state": "WA",
+            "party": "Republican",
+            "twitter_handle": "RepNewhouse"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 350,
+        "fields": {
+            "name": "Glenn Grothman",
+            "state": "WI",
+            "party": "Republican",
+            "twitter_handle": "RepGrothman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 351,
+        "fields": {
+            "name": "Alexander X. Mooney",
+            "state": "WV",
+            "party": "Republican",
+            "twitter_handle": "RepAlexMooney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 352,
+        "fields": {
+            "name": "Aumua Amata Coleman Radewagen",
+            "state": "AS",
+            "party": "Republican",
+            "twitter_handle": "RepAmata"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 353,
+        "fields": {
+            "name": "Dan Sullivan",
+            "state": "AK",
+            "party": "Republican",
+            "twitter_handle": "SenDanSullivan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 354,
+        "fields": {
+            "name": "David Perdue",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "sendavidperdue"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 355,
+        "fields": {
+            "name": "Joni Ernst",
+            "state": "IA",
+            "party": "Republican",
+            "twitter_handle": "SenJoniErnst"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 356,
+        "fields": {
+            "name": "Thom Tillis",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "senthomtillis"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 357,
+        "fields": {
+            "name": "Mike Rounds",
+            "state": "SD",
+            "party": "Republican",
+            "twitter_handle": "SenatorRounds"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 358,
+        "fields": {
+            "name": "Mark Walker",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "RepMarkWalker"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 359,
+        "fields": {
+            "name": "Ben Sasse",
+            "state": "NE",
+            "party": "Republican",
+            "twitter_handle": "SenSasse"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 360,
+        "fields": {
+            "name": "Trent Kelly",
+            "state": "MS",
+            "party": "Republican",
+            "twitter_handle": "reptrentkelly"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 361,
+        "fields": {
+            "name": "Darin LaHood",
+            "state": "IL",
+            "party": "Republican",
+            "twitter_handle": "RepLaHood"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 362,
+        "fields": {
+            "name": "Warren Davidson",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "WarrenDavidson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 363,
+        "fields": {
+            "name": "James Comer",
+            "state": "KY",
+            "party": "Republican",
+            "twitter_handle": "RepJamesComer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 364,
+        "fields": {
+            "name": "Dwight Evans",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "RepDwightEvans"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 365,
+        "fields": {
+            "name": "Kamala D. Harris",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "SenKamalaHarris"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 366,
+        "fields": {
+            "name": "John Kennedy",
+            "state": "LA",
+            "party": "Republican",
+            "twitter_handle": "SenJohnKennedy"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 367,
+        "fields": {
+            "name": "Margaret Wood Hassan",
+            "state": "NH",
+            "party": "Democrat",
+            "twitter_handle": "Senatorhassan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 368,
+        "fields": {
+            "name": "Catherine Cortez Masto",
+            "state": "NV",
+            "party": "Democrat",
+            "twitter_handle": "sencortezmasto"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 369,
+        "fields": {
+            "name": "Bradley Scott Schneider",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "repschneider"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 370,
+        "fields": {
+            "name": "Tom O\u2019Halleran",
+            "state": "AZ",
+            "party": "Democrat",
+            "twitter_handle": "repohalleran"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 371,
+        "fields": {
+            "name": "Andy Biggs",
+            "state": "AZ",
+            "party": "Republican",
+            "twitter_handle": "RepAndyBiggsAZ"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 372,
+        "fields": {
+            "name": "Ro Khanna",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepRoKhanna"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 373,
+        "fields": {
+            "name": "Jimmy Panetta",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepJimmyPanetta"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 374,
+        "fields": {
+            "name": "Salud O. Carbajal",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepCarbajal"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 375,
+        "fields": {
+            "name": "Nanette Diaz Barrag\u00e1n",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepBarragan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 376,
+        "fields": {
+            "name": "J. Luis Correa",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "reploucorrea"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 377,
+        "fields": {
+            "name": "Lisa Blunt Rochester",
+            "state": "DE",
+            "party": "Democrat",
+            "twitter_handle": "RepLBR"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 378,
+        "fields": {
+            "name": "Matt Gaetz",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepMattGaetz"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 379,
+        "fields": {
+            "name": "Neal P. Dunn",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "drnealdunnfl2"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 380,
+        "fields": {
+            "name": "John H. Rutherford",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepRutherfordFL"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 381,
+        "fields": {
+            "name": "Al Lawson, Jr.",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepAlLawsonJr"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 382,
+        "fields": {
+            "name": "Stephanie N. Murphy",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepStephMurphy"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 383,
+        "fields": {
+            "name": "Darren Soto",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepDarrenSoto"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 384,
+        "fields": {
+            "name": "Val Butler Demings",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepValDemings"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 385,
+        "fields": {
+            "name": "Charlie Crist",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "repcharliecrist"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 386,
+        "fields": {
+            "name": "Brian J. Mast",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "repbrianmast"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 387,
+        "fields": {
+            "name": "Francis Rooney",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepRooney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 388,
+        "fields": {
+            "name": "A. Drew Ferguson IV",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "RepDrewFerguson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 389,
+        "fields": {
+            "name": "Raja Krishnamoorthi",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "congressmanraja"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 390,
+        "fields": {
+            "name": "Jim Banks",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "RepJimBanks"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 391,
+        "fields": {
+            "name": "Trey Hollingsworth",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "reptrey"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 392,
+        "fields": {
+            "name": "Roger W. Marshall",
+            "state": "KS",
+            "party": "Republican",
+            "twitter_handle": "RepMarshall"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 393,
+        "fields": {
+            "name": "Clay Higgins",
+            "state": "LA",
+            "party": "Republican",
+            "twitter_handle": "RepClayHiggins"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 394,
+        "fields": {
+            "name": "Mike Johnson",
+            "state": "LA",
+            "party": "Republican",
+            "twitter_handle": "RepMikeJohnson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 395,
+        "fields": {
+            "name": "Anthony G. Brown",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "RepAnthonyBrown"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 396,
+        "fields": {
+            "name": "Jamie Raskin",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "repraskin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 397,
+        "fields": {
+            "name": "Jack Bergman",
+            "state": "MI",
+            "party": "Republican",
+            "twitter_handle": "RepJackBergman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 398,
+        "fields": {
+            "name": "Paul Mitchell",
+            "state": "MI",
+            "party": "Independent",
+            "twitter_handle": "RepPaulMitchell"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 399,
+        "fields": {
+            "name": "Ted Budd",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "RepTedBudd"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 400,
+        "fields": {
+            "name": "Don Bacon",
+            "state": "NE",
+            "party": "Republican",
+            "twitter_handle": "repdonbacon"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 401,
+        "fields": {
+            "name": "Josh Gottheimer",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "RepJoshG"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 402,
+        "fields": {
+            "name": "Jacky Rosen",
+            "state": "NV",
+            "party": "Democrat",
+            "twitter_handle": "SenJackyRosen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 403,
+        "fields": {
+            "name": "Thomas R. Suozzi",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepTomSuozzi"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 404,
+        "fields": {
+            "name": "Adriano Espaillat",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepEspaillat"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 405,
+        "fields": {
+            "name": "Brian K. Fitzpatrick",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "repbrianfitz"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 406,
+        "fields": {
+            "name": "Lloyd Smucker",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "RepSmucker"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 407,
+        "fields": {
+            "name": "Jenniffer Gonz\u00e1lez-Col\u00f3n",
+            "state": "PR",
+            "party": "Republican",
+            "twitter_handle": "repjenniffer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 408,
+        "fields": {
+            "name": "David Kustoff",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "repdavidkustoff"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 409,
+        "fields": {
+            "name": "Vicente Gonzalez",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepGonzalez"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 410,
+        "fields": {
+            "name": "Jodey C. Arrington",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepArrington"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 411,
+        "fields": {
+            "name": "A. Donald McEachin",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "RepMcEachin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 412,
+        "fields": {
+            "name": "Pramila Jayapal",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "RepJayapal"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 413,
+        "fields": {
+            "name": "Mike Gallagher",
+            "state": "WI",
+            "party": "Republican",
+            "twitter_handle": "RepGallagher"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 414,
+        "fields": {
+            "name": "Liz Cheney",
+            "state": "WY",
+            "party": "Republican",
+            "twitter_handle": "RepLizCheney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 415,
+        "fields": {
+            "name": "Ron Estes",
+            "state": "KS",
+            "party": "Republican",
+            "twitter_handle": "RepRonEstes"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 416,
+        "fields": {
+            "name": "Ralph Norman",
+            "state": "SC",
+            "party": "Republican",
+            "twitter_handle": "RepRalphNorman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 417,
+        "fields": {
+            "name": "Jimmy Gomez",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepJimmyGomez"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 418,
+        "fields": {
+            "name": "John R. Curtis",
+            "state": "UT",
+            "party": "Republican",
+            "twitter_handle": "RepJohnCurtis"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 419,
+        "fields": {
+            "name": "Doug Jones",
+            "state": "AL",
+            "party": "Democrat",
+            "twitter_handle": "sendougjones"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 420,
+        "fields": {
+            "name": "Tina Smith",
+            "state": "MN",
+            "party": "Democrat",
+            "twitter_handle": "SenTinaSmith"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 421,
+        "fields": {
+            "name": "Cindy Hyde-Smith",
+            "state": "MS",
+            "party": "Republican",
+            "twitter_handle": "SenHydeSmith"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 422,
+        "fields": {
+            "name": "Conor Lamb",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "RepConorLamb"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 423,
+        "fields": {
+            "name": "Debbie Lesko",
+            "state": "AZ",
+            "party": "Republican",
+            "twitter_handle": "RepDLesko"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 424,
+        "fields": {
+            "name": "Michael Cloud",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepCloudTX"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 425,
+        "fields": {
+            "name": "Troy Balderson",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepBalderson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 426,
+        "fields": {
+            "name": "Kevin Hern",
+            "state": "OK",
+            "party": "Republican",
+            "twitter_handle": "repkevinhern"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 427,
+        "fields": {
+            "name": "Joseph D. Morelle",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepJoeMorelle"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 428,
+        "fields": {
+            "name": "Mary Gay Scanlon",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "RepMGS"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 429,
+        "fields": {
+            "name": "Susan Wild",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "RepSusanWild"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 430,
+        "fields": {
+            "name": "Ed Case",
+            "state": "HI",
+            "party": "Democrat",
+            "twitter_handle": "RepEdCase"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 431,
+        "fields": {
+            "name": "Steven Horsford",
+            "state": "NV",
+            "party": "Democrat",
+            "twitter_handle": "RepHorsford"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 432,
+        "fields": {
+            "name": "Ann Kirkpatrick",
+            "state": "AZ",
+            "party": "Democrat",
+            "twitter_handle": "RepKirkpatrick"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 433,
+        "fields": {
+            "name": "Greg Stanton",
+            "state": "AZ",
+            "party": "Democrat",
+            "twitter_handle": "RepGregStanton"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 434,
+        "fields": {
+            "name": "Josh Harder",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepJoshHarder"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 435,
+        "fields": {
+            "name": "TJ Cox",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepTjCox"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 436,
+        "fields": {
+            "name": "Gilbert Ray Cisneros, Jr.",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepGilCisneros"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 437,
+        "fields": {
+            "name": "Katie Porter",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepKatiePorter"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 438,
+        "fields": {
+            "name": "Harley Rouda",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepHarley"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 439,
+        "fields": {
+            "name": "Mike Levin",
+            "state": "CA",
+            "party": "Democrat",
+            "twitter_handle": "RepMikeLevin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 440,
+        "fields": {
+            "name": "Joe Neguse",
+            "state": "CO",
+            "party": "Democrat",
+            "twitter_handle": "RepJoeNeguse"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 441,
+        "fields": {
+            "name": "Jason Crow",
+            "state": "CO",
+            "party": "Democrat",
+            "twitter_handle": "RepJasonCrow"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 442,
+        "fields": {
+            "name": "Jahana Hayes",
+            "state": "CT",
+            "party": "Democrat",
+            "twitter_handle": "RepJahanaHayes"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 443,
+        "fields": {
+            "name": "Michael Waltz",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepMichaelWaltz"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 444,
+        "fields": {
+            "name": "Ross Spano",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepRossSpano"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 445,
+        "fields": {
+            "name": "W. Gregory Steube",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "RepGregSteube"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 446,
+        "fields": {
+            "name": "Debbie Mucarsel-Powell",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepDMP"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 447,
+        "fields": {
+            "name": "Donna E. Shalala",
+            "state": "FL",
+            "party": "Democrat",
+            "twitter_handle": "RepShalala"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 448,
+        "fields": {
+            "name": "Lucy McBath",
+            "state": "GA",
+            "party": "Democrat",
+            "twitter_handle": "replucymcbath"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 449,
+        "fields": {
+            "name": "Michael F. Q. San Nicolas",
+            "state": "GU",
+            "party": "Democrat",
+            "twitter_handle": "GuamCongressman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 450,
+        "fields": {
+            "name": "Abby Finkenauer",
+            "state": "IA",
+            "party": "Democrat",
+            "twitter_handle": "RepFinkenauer"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 451,
+        "fields": {
+            "name": "Cynthia Axne",
+            "state": "IA",
+            "party": "Democrat",
+            "twitter_handle": "RepCindyAxne"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 452,
+        "fields": {
+            "name": "Russ Fulcher",
+            "state": "ID",
+            "party": "Republican",
+            "twitter_handle": "RepRussFulcher"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 453,
+        "fields": {
+            "name": "Jes\u00fas G. \"Chuy\" Garc\u00eda",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepChuyGarcia"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 454,
+        "fields": {
+            "name": "Sean Casten",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepCasten"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 455,
+        "fields": {
+            "name": "Lauren Underwood",
+            "state": "IL",
+            "party": "Democrat",
+            "twitter_handle": "RepUnderwood"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 456,
+        "fields": {
+            "name": "James R. Baird",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "RepJimBaird"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 457,
+        "fields": {
+            "name": "Greg Pence",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "RepGregPence"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 458,
+        "fields": {
+            "name": "Steve Watkins",
+            "state": "KS",
+            "party": "Republican",
+            "twitter_handle": "Rep_Watkins"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 459,
+        "fields": {
+            "name": "Sharice Davids",
+            "state": "KS",
+            "party": "Democrat",
+            "twitter_handle": "RepDavids"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 460,
+        "fields": {
+            "name": "Lori Trahan",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "RepLoriTrahan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 461,
+        "fields": {
+            "name": "Ayanna Pressley",
+            "state": "MA",
+            "party": "Democrat",
+            "twitter_handle": "RepPressley"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 462,
+        "fields": {
+            "name": "David J. Trone",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "repdavidtrone"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 463,
+        "fields": {
+            "name": "Elissa Slotkin",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "RepSlotkin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 464,
+        "fields": {
+            "name": "Andy Levin",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "RepAndyLevin"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 465,
+        "fields": {
+            "name": "Haley M. Stevens",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "RepHaleyStevens"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 466,
+        "fields": {
+            "name": "Rashida Tlaib",
+            "state": "MI",
+            "party": "Democrat",
+            "twitter_handle": "RepRashida"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 467,
+        "fields": {
+            "name": "Jim Hagedorn",
+            "state": "MN",
+            "party": "Republican",
+            "twitter_handle": "RepHagedorn"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 468,
+        "fields": {
+            "name": "Angie Craig",
+            "state": "MN",
+            "party": "Democrat",
+            "twitter_handle": "RepAngieCraig"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 469,
+        "fields": {
+            "name": "Dean Phillips",
+            "state": "MN",
+            "party": "Democrat",
+            "twitter_handle": "RepDeanPhillips"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 470,
+        "fields": {
+            "name": "Ilhan Omar",
+            "state": "MN",
+            "party": "Democrat",
+            "twitter_handle": "Ilhan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 471,
+        "fields": {
+            "name": "Pete Stauber",
+            "state": "MN",
+            "party": "Republican",
+            "twitter_handle": "RepPeteStauber"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 472,
+        "fields": {
+            "name": "Michael Guest",
+            "state": "MS",
+            "party": "Republican",
+            "twitter_handle": "RepMichaelGuest"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 473,
+        "fields": {
+            "name": "Kelly Armstrong",
+            "state": "ND",
+            "party": "Republican",
+            "twitter_handle": "RepArmstrongND"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 474,
+        "fields": {
+            "name": "Chris Pappas",
+            "state": "NH",
+            "party": "Democrat",
+            "twitter_handle": "RepChrisPappas"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 475,
+        "fields": {
+            "name": "Jefferson Van Drew",
+            "state": "NJ",
+            "party": "Republican",
+            "twitter_handle": "CongressmanJVD"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 476,
+        "fields": {
+            "name": "Andy Kim",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "RepAndyKimNJ"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 477,
+        "fields": {
+            "name": "Tom Malinowski",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "RepMalinowski"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 478,
+        "fields": {
+            "name": "Mikie Sherrill",
+            "state": "NJ",
+            "party": "Democrat",
+            "twitter_handle": "RepSherrill"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 479,
+        "fields": {
+            "name": "Debra A. Haaland",
+            "state": "NM",
+            "party": "Democrat",
+            "twitter_handle": "RepDebHaaland"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 480,
+        "fields": {
+            "name": "Xochitl Torres Small",
+            "state": "NM",
+            "party": "Democrat",
+            "twitter_handle": "RepTorresSmall"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 481,
+        "fields": {
+            "name": "Susie Lee",
+            "state": "NV",
+            "party": "Democrat",
+            "twitter_handle": "RepSusieLee"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 482,
+        "fields": {
+            "name": "Max Rose",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepMaxRose"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 483,
+        "fields": {
+            "name": "Alexandria Ocasio-Cortez",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepAOC"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 484,
+        "fields": {
+            "name": "Antonio Delgado",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "repdelgado"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 485,
+        "fields": {
+            "name": "Anthony Brindisi",
+            "state": "NY",
+            "party": "Democrat",
+            "twitter_handle": "RepBrindisi"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 486,
+        "fields": {
+            "name": "Anthony Gonzalez",
+            "state": "OH",
+            "party": "Republican",
+            "twitter_handle": "RepAGonzalez"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 487,
+        "fields": {
+            "name": "Kendra S. Horn",
+            "state": "OK",
+            "party": "Democrat",
+            "twitter_handle": "RepKendraHorn"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 488,
+        "fields": {
+            "name": "Madeleine Dean",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "RepDean"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 489,
+        "fields": {
+            "name": "Chrissy Houlahan",
+            "state": "PA",
+            "party": "Democrat",
+            "twitter_handle": "RepHoulahan"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 490,
+        "fields": {
+            "name": "Daniel Meuser",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "RepMeuser"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 491,
+        "fields": {
+            "name": "John Joyce",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "RepJohnJoyce"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 492,
+        "fields": {
+            "name": "Guy Reschenthaler",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "GReschenthaler"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 493,
+        "fields": {
+            "name": "Joe Cunningham",
+            "state": "SC",
+            "party": "Democrat",
+            "twitter_handle": "RepCunningham"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 494,
+        "fields": {
+            "name": "William R. Timmons IV",
+            "state": "SC",
+            "party": "Republican",
+            "twitter_handle": "RepTimmons"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 495,
+        "fields": {
+            "name": "Dusty Johnson",
+            "state": "SD",
+            "party": "Republican",
+            "twitter_handle": "RepDustyJohnson"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 496,
+        "fields": {
+            "name": "Tim Burchett",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "RepTimBurchett"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 497,
+        "fields": {
+            "name": "John W. Rose",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "RepJohnRose"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 498,
+        "fields": {
+            "name": "Mark E. Green",
+            "state": "TN",
+            "party": "Republican",
+            "twitter_handle": "RepMarkGreen"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 499,
+        "fields": {
+            "name": "Dan Crenshaw",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepDanCrenshaw"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 500,
+        "fields": {
+            "name": "Van Taylor",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepVanTaylor"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 501,
+        "fields": {
+            "name": "Lance Gooden",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepLanceGooden"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 502,
+        "fields": {
+            "name": "Ron Wright",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepRonWright"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 503,
+        "fields": {
+            "name": "Lizzie Fletcher",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepFletcher"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 504,
+        "fields": {
+            "name": "Veronica Escobar",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepEscobar"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 505,
+        "fields": {
+            "name": "Chip Roy",
+            "state": "TX",
+            "party": "Republican",
+            "twitter_handle": "RepChipRoy"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 506,
+        "fields": {
+            "name": "Sylvia R. Garcia",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepSylviaGarcia"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 507,
+        "fields": {
+            "name": "Colin Z. Allred",
+            "state": "TX",
+            "party": "Democrat",
+            "twitter_handle": "RepColinAllred"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 508,
+        "fields": {
+            "name": "Ben McAdams",
+            "state": "UT",
+            "party": "Democrat",
+            "twitter_handle": "RepBenMcAdams"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 509,
+        "fields": {
+            "name": "Elaine G. Luria",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "RepElaineLuria"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 510,
+        "fields": {
+            "name": "Denver Riggleman",
+            "state": "VA",
+            "party": "Republican",
+            "twitter_handle": "RepRiggleman"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 511,
+        "fields": {
+            "name": "Ben Cline",
+            "state": "VA",
+            "party": "Republican",
+            "twitter_handle": "RepBenCline"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 512,
+        "fields": {
+            "name": "Abigail Davis Spanberger",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "RepSpanberger"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 513,
+        "fields": {
+            "name": "Jennifer Wexton",
+            "state": "VA",
+            "party": "Democrat",
+            "twitter_handle": "RepWexton"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 514,
+        "fields": {
+            "name": "Kim Schrier",
+            "state": "WA",
+            "party": "Democrat",
+            "twitter_handle": "RepKimSchrier"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 515,
+        "fields": {
+            "name": "Bryan Steil",
+            "state": "WI",
+            "party": "Republican",
+            "twitter_handle": "RepBryanSteil"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 516,
+        "fields": {
+            "name": "Carol D. Miller",
+            "state": "WV",
+            "party": "Republican",
+            "twitter_handle": "RepCarolMiller"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 517,
+        "fields": {
+            "name": "Rick Scott",
+            "state": "FL",
+            "party": "Republican",
+            "twitter_handle": "SenRickScott"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 518,
+        "fields": {
+            "name": "Mike Braun",
+            "state": "IN",
+            "party": "Republican",
+            "twitter_handle": "SenatorBraun"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 519,
+        "fields": {
+            "name": "Josh Hawley",
+            "state": "MO",
+            "party": "Republican",
+            "twitter_handle": "SenHawleyPress"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 520,
+        "fields": {
+            "name": "Mitt Romney",
+            "state": "UT",
+            "party": "Republican",
+            "twitter_handle": "SenatorRomney"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 521,
+        "fields": {
+            "name": "Jared F. Golden",
+            "state": "ME",
+            "party": "Democrat",
+            "twitter_handle": "repgolden"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 522,
+        "fields": {
+            "name": "Fred Keller",
+            "state": "PA",
+            "party": "Republican",
+            "twitter_handle": "RepFredKeller"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 523,
+        "fields": {
+            "name": "Dan Bishop",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "RepDanBishop"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 524,
+        "fields": {
+            "name": "Gregory F. Murphy",
+            "state": "NC",
+            "party": "Republican",
+            "twitter_handle": "RepGregMurphy"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 525,
+        "fields": {
+            "name": "Kelly Loeffler",
+            "state": "GA",
+            "party": "Republican",
+            "twitter_handle": "SenatorLoeffler"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 526,
+        "fields": {
+            "name": "Kweisi Mfume",
+            "state": "MD",
+            "party": "Democrat",
+            "twitter_handle": "RepKweisiMfume"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 527,
+        "fields": {
+            "name": "Mike Garcia",
+            "state": "CA",
+            "party": "Republican",
+            "twitter_handle": "repmikegarcia"
+        }
+    },
+    {
+        "model": "Congressman.Congressman",
+        "pk": 528,
+        "fields": {
+            "name": "Mark Kelly",
+            "state": "AZ",
+            "party": "Democrat",
+            "twitter_handle": "SenMarkKelly"
+        }
+    }
+]
