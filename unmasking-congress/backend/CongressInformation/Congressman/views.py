@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 
-import nest_asyncio
+#import nest_asyncio
 
 import twint
 import twint.storage.panda
