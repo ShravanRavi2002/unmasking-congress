@@ -1,0 +1,92 @@
+aiodns==2.0.0
+aiohttp==3.7.3
+aiohttp-socks==0.5.5
+asgiref @ file:///tmp/build/80754af9/asgiref_1605055780383/work
+async-timeout==3.0.1
+attrs==20.3.0
+beautifulsoup4==4.9.3
+CacheControl==0.12.6
+cachetools==4.2.0
+cchardet==2.1.7
+certifi==2020.12.5
+cffi==1.14.4
+chardet==3.0.4
+click==7.1.2
+cycler==0.10.0
+dataclasses==0.6
+Django @ file:///tmp/build/80754af9/django_1606860386887/work
+django-admin==2.0.1
+django-cors-headers==3.6.0
+django-excel-base==1.0.4
+django-excel-response2==3.0.2
+django-six==1.0.4
+djangorestframework @ file:///home/conda/feedstock_root/build_artifacts/djangorestframework_1601312268278/work
+elasticsearch==7.10.1
+fake-useragent==0.1.11
+firebase-admin==4.5.0
+firestore==0.0.8
+geographiclib==1.50
+geopy==2.1.0
+google-api-core==1.24.1
+google-api-python-client==1.12.8
+google-auth==1.24.0
+google-auth-httplib2==0.0.4
+google-cloud-core==1.5.0
+google-cloud-firestore==2.0.2
+google-cloud-storage==1.35.0
+google-crc32c==1.1.0
+google-resumable-media==1.2.0
+googleapis-common-protos==1.52.0
+googletransx==2.4.2
+grpcio==1.34.0
+httplib2==0.18.1
+idna==2.10
+iso8601==0.1.13
+joblib @ file:///tmp/build/80754af9/joblib_1607970656719/work
+kiwisolver==1.3.1
+lxml==4.6.2
+matplotlib==3.3.3
+msgpack==1.0.2
+multidict==5.1.0
+multitasking==0.0.9
+mysql-connector-python==8.0.22
+nest-asyncio==1.4.3
+nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+numpy==1.19.4
+pandas==1.2.0
+Pillow==8.0.1
+plotly==4.14.1
+proto-plus==1.13.0
+protobuf==3.14.0
+psycopg2 @ file:///opt/concourse/worker/volumes/live/ad562067-300d-4e37-4f54-3b1ac8fa91bd/volume/psycopg2_1608147599750/work
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycares==3.1.1
+pycparser==2.20
+PyMySQL==0.10.1
+pyparsing==2.4.7
+PySocks==1.7.1
+python-dateutil==2.8.1
+python-socks==1.1.2
+pytz @ file:///tmp/build/80754af9/pytz_1608922264688/work
+regex @ file:///opt/concourse/worker/volumes/live/c84a6349-3315-46e4-634b-b5582dea058b/volume/regex_1606691109605/work
+requests==2.25.1
+retrying==1.3.3
+rsa==4.6
+schedule==0.6.0
+scikit-learn==0.24.0
+scipy==1.5.4
+screen==1.0.1
+six==1.15.0
+soupsieve==2.1
+sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
+textblob==0.15.3
+threadpoolctl==2.1.0
+tqdm==4.55.1
+twint @ git+https://github.com/twintproject/twint.git@4b30fa33991ccdf89c77471382daad3d3bc8c988
+typing-extensions==3.7.4.3
+uritemplate==3.0.1
+urllib3==1.26.2
+xlwt==1.3.0
+yarl==1.6.3
+yfinance==0.1.55
