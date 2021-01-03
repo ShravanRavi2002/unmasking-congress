@@ -6,13 +6,13 @@ class App extends Component {
   state = {
     data: null,
   }
-  componentDidMount() {
-      axios.get('http://localhost:8000')
+  async componentDidMount() {
+      await axios.get('http://localhost:8000')
       .then(response => {
-        console.log(response.data)
         this.setState({
-            data: response.data,
+            data: JSON.parse(response.data),
           });
+        console.log(this.state.data)
       })
       .catch(err =>{console.error(err)});
   }
@@ -22,7 +22,7 @@ class App extends Component {
       return <div>Loading...</div>
 
     for (var key in this.state.data) {
-      outArr.push(key + ": " + this.state.data[key])
+      outArr.push(key + ": " + this.state.data[key].sentiment)
     }
 
     return(
