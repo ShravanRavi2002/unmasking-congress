@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Congressman
+from .models import Representative
 
 class MainSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Congressman
+        model = Representative
         fields = ('name', 'state', 'party', 'twitter_handle')
