@@ -101,7 +101,7 @@ def congress(request):
 
     representatives = Representative.objects.all()
 
-    request = 'December'
+    month = request.GET.get('month')
 
 
     for representative in representatives:
@@ -109,9 +109,9 @@ def congress(request):
         congress_month_sentiment[representative.name] = {
             'state': representative.state,
             'party': representative.party,
-            'sentiment': sentiment_json[request]['sentiment'],
-            'subjectivity': sentiment_json[request]['subjectivity'],
-            'polarity': sentiment_json[request]['polarity'] if sentiment_json['December'][
+            'sentiment': sentiment_json[month]['sentiment'],
+            'subjectivity': sentiment_json[month]['subjectivity'],
+            'polarity': sentiment_json[month]['polarity'] if sentiment_json['December'][
                                                                       'polarity'] != -2 else 'no data'
         }
 
