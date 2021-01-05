@@ -3,21 +3,9 @@ import {Component} from 'react'
 import './App.css';
 import Timeline from './Timeline.js'
 import axios from 'axios';
-class App extends Component {
-  state = {
-    data: null,
-  }
-  // async componentDidMount() {
-  //     await axios.get('http://localhost:8000')
-  //     .then(response => {
-  //       this.setState({
-  //           data: JSON.parse(response.data),
-  //         });
-  //       console.log(this.state.data)
-  //     })
-  //     .catch(err =>{console.error(err)});
-  // }
-  render(){
+const App = () => {
+  const [monthData, setMonthData] = useState({});
+  
     // var outArr = [];
     // if (this.state.data == null)
     //   return <div>Loading...</div>
@@ -34,10 +22,9 @@ class App extends Component {
         margin:'50px',
         height: '200px'
       }}>
-        <Timeline />
+        <Timeline setMonthData={setMonthData}/>
       </div>
     )
-  }
 }
 
 export default App;

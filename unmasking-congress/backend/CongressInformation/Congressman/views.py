@@ -106,9 +106,9 @@ def congress(request):
         congress_month_sentiment[representative.name] = {
             'state': representative.state,
             'party': representative.party,
-            'sentiment': sentiment_json['December']['sentiment'],
-            'subjectivity': sentiment_json['December']['subjectivity'],
-            'polarity': sentiment_json['December']['polarity'] if sentiment_json['December'][
+            'sentiment': sentiment_json[request]['sentiment'],
+            'subjectivity': sentiment_json[request]['subjectivity'],
+            'polarity': sentiment_json[request]['polarity'] if sentiment_json['December'][
                                                                       'polarity'] != -2 else 'no data'
         }
 

@@ -5,10 +5,10 @@ import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-
+import {sendMonthToBackend} from './API.js'
 
   
-export default function OurTimeline(){
+const OurTimeline = (setMonthData) => {
     var months=["December", "November", "October", "September", "August", "July", "June", "May" , "April", "March"]
     const useStyles ={
         timeline: {
@@ -27,7 +27,11 @@ export default function OurTimeline(){
           transform: "rotate(-90deg)"
         }
       };
-      console.log(useStyles.timeline)
+      const sendMonth = (month, setMonthData) =>{
+        console.log(month);
+        sendMonthToBackend({month}, setMonthData)
+        
+      }
   return (
     <Timeline style={useStyles.timeline}>
         {months.map(month => {
@@ -39,7 +43,7 @@ export default function OurTimeline(){
                         <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent style={useStyles.timelineContentContainer}>
-                            <div className="timelineContent" style={useStyles.timelineContent}>{month}</div>
+                            <div className="timelineContent" onClick={sendMonth(month, setMonthData)} style={useStyles.timelineContent}>{month}</div>
                         </TimelineContent>
                     </TimelineItem>
                 </div>
@@ -48,3 +52,4 @@ export default function OurTimeline(){
     </Timeline>
   );
 }
+export default OurTimeline
