@@ -1,10 +1,9 @@
-import React, {useState} from 'react'
-import {Component} from 'react'
+import React, { useState } from 'react'
 import './App.css';
 import Timeline from './Timeline.js'
 import axios from 'axios';
 const App = () => {
-  const [monthData, setMonthData] = useState({});
+    const [monthData, setMonthData] = useState({});
   
     // var outArr = [];
     // if (this.state.data == null)
@@ -23,6 +22,7 @@ const App = () => {
         height: '200px'
       }}>
         <Timeline setMonthData={setMonthData}/>
+        {console.log(monthData)}
       </div>
     )
 }
