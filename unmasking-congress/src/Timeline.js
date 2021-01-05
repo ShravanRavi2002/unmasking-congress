@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
@@ -8,7 +8,7 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import {sendMonthToBackend} from './API.js'
 
   
-const OurTimeline = (setMonthData) => {
+const OurTimeline = ({setMonthData}) => {
     var months=["December", "November", "October", "September", "August", "July", "June", "May" , "April", "March"]
     const useStyles ={
         timeline: {
@@ -26,12 +26,12 @@ const OurTimeline = (setMonthData) => {
         timelineIcon: {
           transform: "rotate(-90deg)"
         }
-      };
-      const sendMonth = (month, setMonthData) =>{
+    };
+    const sendMonth = (month, setMonthData) =>{
         console.log(month);
-        sendMonthToBackend({month}, setMonthData)
+        sendMonthToBackend(month, setMonthData)
         
-      }
+    }
   return (
     <Timeline style={useStyles.timeline}>
         {months.map(month => {
@@ -43,7 +43,7 @@ const OurTimeline = (setMonthData) => {
                         <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent style={useStyles.timelineContentContainer}>
-                            <div className="timelineContent" onClick={sendMonth(month, setMonthData)} style={useStyles.timelineContent}>{month}</div>
+                            <div className="timelineContent" onClick={() => {sendMonth(month, setMonthData)}} style={useStyles.timelineContent}>{month}</div>
                         </TimelineContent>
                     </TimelineItem>
                 </div>
