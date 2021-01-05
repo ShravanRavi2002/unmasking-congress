@@ -101,6 +101,9 @@ def congress(request):
 
     representatives = Representative.objects.all()
 
+    request = 'December'
+
+
     for representative in representatives:
         sentiment_json = json.loads(representative.sentiments)
         congress_month_sentiment[representative.name] = {
