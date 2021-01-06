@@ -18,8 +18,9 @@ const App = () => {
         <Timeline setMonthData={setMonthData} />
       </div>
 
-      <div display='inline'>
-        <div style={{color: 'white', backgroundColor: 'black'}}>
+      <div className='labelContainer' display='inline' width='50%'>
+        <div className='hospitalizedCount' style={{textAlign: 'center', justifyContent: 'center'}}>
+          <h2>{'Hospitalized'}</h2>
           <Countup
             start={0}
             end={100}
