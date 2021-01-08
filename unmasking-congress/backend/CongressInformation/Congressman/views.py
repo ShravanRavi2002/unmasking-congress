@@ -107,6 +107,7 @@ def congress(request):
     for representative in representatives:
         sentiment_json = json.loads(representative.sentiments)
         congress_month_sentiment[representative.name] = {
+            'twitter_handle': representative.twitter_handle,
             'state': representative.state,
             'party': representative.party,
             'sentiment': sentiment_json[month]['sentiment'],
