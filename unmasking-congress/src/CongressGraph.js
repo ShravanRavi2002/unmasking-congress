@@ -38,8 +38,10 @@ const CongressGraph = ({monthData}) => {
             }}
         >
             <strong style={{color:node.data.color}}>
-                {node.data.label} ({node.data.serieId})
+                {node.data.label} ({node.data.state}-{node.data.serieId})
             </strong>
+            <br />
+            {`twitter: @${node.data.twitter_handle}`}
             <br />
             {`sentiment: ${node.data.formattedX.toFixed(2)}`}
             <br />
