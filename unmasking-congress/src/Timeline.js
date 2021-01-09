@@ -26,7 +26,13 @@ const OurTimeline = ({setMonthData, setCases, setDeaths, setHospitalized}) => {
 
   return (
 
-  <Stepper activeStep={months.indexOf(monthSelected)}>
+  <Stepper 
+    activeStep={months.indexOf(monthSelected)} 
+    style={{
+        backgroundColor:'#F6BF00',
+        padding:'0px',
+        height:'100%'
+      }}>
         {months.map((month) => {
           return (
             <Step key={month} onClick={() => {sendMonth(month)}}>
