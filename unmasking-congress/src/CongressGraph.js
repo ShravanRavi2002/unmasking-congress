@@ -2,7 +2,6 @@ import React from 'react'
 import { ResponsiveScatterPlot } from '@nivo/scatterplot'
 
 const CongressGraph = ({monthData}) => {
-
   return(
     <ResponsiveScatterPlot
       data={monthData}
@@ -10,8 +9,32 @@ const CongressGraph = ({monthData}) => {
       xScale={{ type: 'linear', min: '-1', max: '1' }}
       yScale={{ type: 'linear', min: '0', max: '1' }}
       colors={ (datum) => (datum.color)}
-      blendMode="multiply"
+      blendMode='normal'
       nodeSize={15}
+      theme={{
+      axis: {
+        fontSize: "14px",
+        tickColor: "#eee",
+        ticks: {
+          line: {
+            stroke: "#555555"
+          },
+          text: {
+            fill: "#ffffff"
+          }
+        },
+        legend: {
+          text: {
+            fill: "#aaaaaa"
+          }
+        }
+      },
+      grid: {
+        line: {
+          stroke: "#555555"
+        }
+      }
+      }}
       axisBottom={{
           orient: 'bottom',
           tickSize: 5,
@@ -19,7 +42,8 @@ const CongressGraph = ({monthData}) => {
           tickRotation: 0,
           legend: 'sentiment',
           legendPosition: 'middle',
-          legendOffset: 46
+          legendOffset: 46,
+
       }}
       axisLeft={{
           orient: 'left',
@@ -28,7 +52,7 @@ const CongressGraph = ({monthData}) => {
           tickRotation: 0,
           legend: 'polarity',
           legendPosition: 'middle',
-          legendOffset: -60
+          legendOffset: -60,
       }}
       tooltip={({ node }) => (
         <div className='tooltip'
