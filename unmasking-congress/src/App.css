@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.labelContainer>div{
+  text-align: center !important;
+  justify-content: center!important;
+  font-family:'Copperplate'
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
