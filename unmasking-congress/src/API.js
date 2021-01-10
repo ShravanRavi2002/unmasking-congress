@@ -1,8 +1,8 @@
 import axios from 'axios'
 export async function sendMonthToBackend(month, setMonthData, setCases, setDeaths, setHospitalized) {
-    const response = await axios.get('http://localhost:8000', {
     console.log('sending request to django db for month:', month)
 
+    const response = await axios.get('http://localhost:8000/scraper', {
         params: {
             month: String(month)
         }

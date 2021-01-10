@@ -14,12 +14,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from . import views
+# from django.contrib import admin
+# from django.urls import path
+# from django.conf.urls import url
+# from . import views
+from Congressman.views import congress, FrontendViewer
 
 app_name = 'Congressman'
 
 urlpatterns = [
     #TODO: change homepage to something with meaning later
     # TODO: make the path go to index.js later once it works
-    path("", views.congress, name='scraper')
+    path("scraper", congress),
+    # path("", views.congress, name='scraper'),
+    path("", FrontendViewer.as_view())
 ]
