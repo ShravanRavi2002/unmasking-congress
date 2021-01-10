@@ -33,10 +33,10 @@ const OurTimeline = ({setMonthData, setCases, setDeaths, setHospitalized}) => {
         padding:'0px',
         height:'100%'
       }}>
-        {months.map((month) => {
+        {months.map((month, index) => {
           return (
             <Step key={month}>
-              <StepLabel onClick={() => {sendMonth(month)}}>{month}</StepLabel>
+              <StepLabel icon={index+3} onClick={() => {sendMonth(month)}}>{month}</StepLabel>
             </Step>
           );
         })}
