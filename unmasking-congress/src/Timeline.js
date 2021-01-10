@@ -28,6 +28,7 @@ const OurTimeline = ({setMonthData, setCases, setDeaths, setHospitalized}) => {
 
   <Stepper 
     activeStep={months.indexOf(monthSelected)} 
+    nonLinear={true}
     style={{
         backgroundColor:'#F6BF00',
         padding:'0px',
