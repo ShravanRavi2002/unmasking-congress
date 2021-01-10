@@ -1,10 +1,14 @@
 import axios from 'axios'
 export async function sendMonthToBackend(month, setMonthData, setCases, setDeaths, setHospitalized) {
     const response = await axios.get('http://localhost:8000', {
+    console.log('sending request to django db for month:', month)
+
         params: {
             month: String(month)
         }
     });
+
+    console.log('received django response!')
 
     var data = JSON.parse(response.data)
     var democratData = []
@@ -62,8 +66,10 @@ export async function sendMonthToBackend(month, setMonthData, setCases, setDeath
 
     let request = new XMLHttpRequest();
     request.open('GET', 'https://api.covidtracking.com/v1/us/daily.json')
+    console.log('sending covid api request')
     request.send()
     request.onload = () => {
+        console.log("received covid api response!")
         if (request.status === 200) {
             let info = JSON.parse(request.response)
             for (var i = 0; i < info.length; i++) {
@@ -78,9 +84,4 @@ export async function sendMonthToBackend(month, setMonthData, setCases, setDeath
     }
 
     setMonthData([democratDictionary, republicanDictionary]);
-
-
-    console.log('in api.js: sendMonthToBackend')
-
-
 }

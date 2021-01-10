@@ -14,7 +14,6 @@ const OurTimeline = ({setMonthData, setCases, setDeaths, setHospitalized}) => {
   var months = ["March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
   
   const sendMonth = (month) => {
-    console.log(month);
     setMonthSelected(month)
     sendMonthToBackend(month, setMonthData, setCases, setDeaths, setHospitalized)
 
@@ -36,7 +35,7 @@ const OurTimeline = ({setMonthData, setCases, setDeaths, setHospitalized}) => {
       }}>
         {months.map((month) => {
           return (
-            <Step key={month} onClick={() => {sendMonth(month)}}>
+            <Step key={month}>
               <StepLabel onClick={() => {sendMonth(month)}}>{month}</StepLabel>
             </Step>
           );
